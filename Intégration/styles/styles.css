@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*--------------------------
+
+PARAMETRES GENERAUX
+
+-----------------------------*/
+
+body {
+	background: url('../img-layout/background2.jpg') no-repeat;
+	 background-size: cover; 
+}
+
+header{
+	/* background: green; */
+	height:100px;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('proximanova-bold-webfont.woff2') format('woff2'),
+         url('proximanova-bold-webfont.woff') format('woff'),
+         url('proximanova-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('proximanova-regular-webfont.woff2') format('woff2'),
+         url('proximanova-regular-webfont.woff') format('woff'),
+         url('proximanova-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*---------------------------------------
+
+EN-TETE
+
+-------------------------------------------*/
+
+main {
+	width:60%;
+	display:block;
+	margin:auto;
+	/* background-color: red; */
+}
+
+.logo {
+	width:25%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+
+}
+
+.enveloppe {
+	display: block;
+	float:right;
+	margin-right: 2%;
+	margin-top:2%;
+}
+
+h2 {
+	padding-top: 10px;
+	border-top: 2px solid white;
+	width:40%;
+	font-family: "Time New Roman";
+	font-style: italic;
+	font-size: 20px;
+	color:white;
+	text-align: center;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+.grille {
+	display: block;
+	width:100%;
+}
+
+nav {
+	display: block;
+	width: 100%;
+	
+}
+
+.navigation a{
+	display: inline-block;
+	margin-top: 110px;
+	margin-right: auto;
+	margin-left: auto;
+	width:25%;
+ 	float:left; 
+	text-decoration: none;
+	font-family: 'proxima_nova_rgregular';
+	font-weight: 400;
+    font-style: normal;
+    color:white;
+    text-align: center;
+
+}
+
+.decouverte {
+	
+	display: block;
+	margin-top: 300px;
+	/* background: pink; */
+	width:210px;
+	height:62px;
+	
+	margin-right: auto;
+	margin-left: auto;
+	
+
+}
+
+
+.liendns{
+
+	
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	font-family: 'proxima_nova_rgregular';
+	font-weight: normal;
+    font-style: normal;
+    color:white;
+   	margin-right: auto;
+	margin-left: auto;
+	border: 2px solid white;
+	text-align: center;
+}
+	
+	
+	
+
+@media screen and (max-width: 650px){
+
+	body{
+	background: url('../img-layout/background2.jpg') no-repeat;
+	/*  background-size: cover; */ 
+}
+
+	header{
+	/* background: green; */
+	height:50px;
+
+}
+
+	main {
+	width:100%;
+	display:block;
+	margin:auto;
+	/* background-color: red; */
+}
+
+h2 {
+	padding-top: 10px;
+	border-top: 2px solid white;
+	width:80%;
+	font-family: "Time New Roman";
+	font-style: italic;
+	font-size: 18px;
+	color:white;
+	text-align: center;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+nav {
+	display: block;
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+	.navigation a{
+	display: block;
+	margin-top: 20px;
+	padding:15px;
+	width:210px;
+	height:auto;
+ 	text-decoration: none;
+	font-family: 'proxima_nova_rgregular';
+	font-weight: 400;
+    font-style: normal;
+    color:white;
+    border:2px solid white;
+    text-align: center;
+
+}
+
+
+.decouverte {
+	width:50%;
+	margin-top: 310px;
+
+}
+
+.liendns{
+	
+	display: block;
+	width:85%;
+	text-align: center;
+	border:none;
+	padding:15px;
+
+}
+
+
+
+
+}
